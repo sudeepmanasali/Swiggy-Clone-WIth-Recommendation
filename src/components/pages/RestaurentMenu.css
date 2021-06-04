@@ -1,0 +1,36 @@
+.restaurent_menu{display:grid;grid-template-columns:1fr 2.7fr 1fr;margin:50px 145px;}
+.restaurent_col1{display: flex;flex-direction: column;align-items: flex-end;border-right:1px  solid #a9abb2;}
+.menu_list{color: #282c3f;font-size: 15px;padding-top:12px;font-weight: 500;padding-right:35px;cursor:pointer;border-right:4px solid white;}
+.menu_title{color:#fc8019;font-weight: 600;border-right:4px solid #fc8019;}
+.menu_list:hover{color:#fc8019;border-color:#fc8019;}
+.col3_title{font-size: 32px;text-transform: capitalize;color:#282c3f;font-weight: 600;}
+.col3_button{text-align: center;background-color: #60b246;font-weight: 600;color:white;padding:15px;}
+.col3_desc{font-size: 13px;margin:5px 0px;}
+.col3_subtotal{display: flex;flex-direction: row;justify-content: space-between;align-items: flex-start;margin:15px 0px;font-weight: 600;}
+.restaurent_col1, .restaurent_col3{height:fit-content;position:sticky; top:0;}
+.col3_products_bill{padding: 15px 0px;display: flex;flex-direction: column;align-items: stretch;max-height: calc(100vh - 270px);}
+.col3_product_cost{display: flex;align-items: flex-start;font-size: 13px;color: #535665;}
+
+.products_actions{color: #60b246;width:60px;text-align: center;display: flex;flex-direction: row;align-items: center;margin-right:15px;border: 1px solid #d4d5d9;justify-content: space-between;}
+.prod_left,.prod_right{display: flex;align-items: center;justify-content: space-between;}
+.prod_left{width: 60%;align-items: flex-start;}
+.action{font-size: 15px;width:50px; height:30px;line-height: 30px;}
+.product_name{font-size: 14px;font-weight: 400;margin-left: 10px;margin-right: 5px;}
+.product_cost{font-size: 13px;color: #535665;}
+.innerboxNonVeg{height:8px ;width:8px;background-color: #ad4728;border-radius: 50%;}
+.innerboxVeg{height:8px ;width:8px;background-color: #60b246;border-radius: 50%;}
+.cusineNonVeg{border:2px solid #ad4728;padding:1px;    }
+.cusineVeg{border:2px solid #60b246;padding:1px;    }
+.products{display: flex;flex-direction: row;align-items: flex-start;justify-content: flex-start;}
+.empty_image{
+    width:300px;
+    object-fit: contain;
+    margin:30px 0px;
+}
+.empty_cart_text{color: #93959f;
+    
+    margin-left:20px;
+    font-size: 16px;
+    font-weight: 500;
+    width:218px;
+}

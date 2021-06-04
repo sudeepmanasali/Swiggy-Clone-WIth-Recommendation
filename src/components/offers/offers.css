@@ -1,0 +1,8 @@
+.offersBanner{background:#37718e;display: flex;flex-direction: row;justify-content: space-between;align-items: center;padding:40px 145px;}
+.offers_image>img{height:200px;object-fit: contain;}
+
+@media(max-width:746px){
+    .offersBanner{
+        padding: 40px 10px;
+    }
+}

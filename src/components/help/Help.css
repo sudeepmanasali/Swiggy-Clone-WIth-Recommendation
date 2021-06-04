@@ -1,0 +1,27 @@
+.help_and_support{background:#37718e;padding:30px 115px;margin-bottom: 0;}
+.pageTitle{padding:20px 25px;}
+.textName{font-size:32px;font-weight: 600;color:white;margin:5px 0px;}
+.textDesc{font-size: 14px;color:#fff;letter-spacing: 0.8px;}
+.help_container{background-color: #fff;padding:40px 45px;margin:20px 0px;display:grid;grid-template-columns: 0.5fr 1.5fr;}
+.help_col1{background-color: #edf1f7;padding:25px 0px 0px 25px;display: flex;flex-direction: column;}
+.help_list{padding:25px 30px;font-size: 15px;font-weight: 600;color:#535665;cursor: pointer;}
+.whiteBack{background-color: #fff;    color: #282c3f;}
+.help_list:hover{    color: #282c3f;}
+.help_col2{margin:45px 0px 20px 30px;display:flex;flex-direction: column;}
+.help_orders{font-size:24px;color:#282c3f;font-weight: 600;}
+.help_and_support{position: sticky;top:0px;}
+
+@media(max-width:746px){
+    .help_and_support{
+        padding:20px;
+    }
+    .help_container{
+        padding:0px;
+        grid-template-columns: 1fr;
+    }
+    .help_col1{
+        display:none;
+
+    }
+    .help_col2{}
+}

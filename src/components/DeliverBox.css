@@ -1,0 +1,20 @@
+.deliverBox{font-size: 32px;font-weight: 600;color: #282c3f;background: #fff;margin-bottom: 20px;padding: 5px 0px; margin-left:15px;}
+.deliver_desc{font-size: 16px;color: #7e808c;font-weight: 400;margin-top:5px;}
+.delivery_options{cursor: pointer;margin-bottom: 4px;font-weight: 500;line-height: 1.18;text-transform: capitalize;display:flex;flex-direction: row;justify-content: space-evenly;font-size: 16px;}
+.option:hover{box-shadow:  0 15px 40px -20px rgb(40 44 63 / 15%);}
+.optionName{color: #282c3f;font-weight: 600;}
+.optionDesc{font-size: 13px;color:#93959f;}
+.delivery_options{margin:30px 0px;display: grid;grid-template-columns:1fr 1fr ; grid-column-gap:50px;grid-row-gap:50px;}
+.option{padding: 23px 15px 29px 15px;border: 1px solid #e9e9eb;display:flex;flex-direction: row;justify-content: space-evenly;align-items: flex-start;   }
+.deliveryOptionDesc{margin-left:15px;}
+.optionDesc{margin-top: 4px;}
+.optionButton{padding: 9px 0;color: #fff;background: #60b246;border: 0;cursor: pointer;width: 130px;font-weight: 600;text-align: center;font-size: 14px;letter-spacing: .3px;}
+.optionNewButton{border:1px solid #60b246;  padding: 9px 0; cursor: pointer; cursor: pointer; width: 130px;
+    font-weight: 600;color:#60b246;text-align: center; font-size: 14px;letter-spacing: .3px;}
+
+
+@media(max-width:746px){
+    .delivery_options{
+        grid-template-columns: 1fr;
+    }
+}    

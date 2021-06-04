@@ -1,0 +1,132 @@
+.cart_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.empty_image{
+    width: 271px;
+    height: 256px;
+    
+ 
+}
+.cart_desc{
+    font-size: 13px;
+    color:#7e808c;
+    margin-top:10px;
+}
+.see_restaurent{
+    color:white;
+    font-size: 14px;
+    font-weight: 600 ;
+    padding:15px ;
+    background:#fc8019;
+    width:fit-content;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.cart_info{
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #535665;
+    background-color: white;
+}   
+
+.filled_cart{
+    background: #e9ecee;
+    display: grid;
+    grid-template-columns: 70% 366px;
+    grid-column-gap: 35px ;
+    margin:0px 145px;
+    padding:25px 0px;
+}
+
+.left_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    margin-left: 25px;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 35px 40px 39px;
+   height:fit-content
+  
+}
+
+
+.right_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+    
+    
+}
+
+.right_cart_top{
+    background: #fff;
+
+}
+.notes{
+    padding:20px 30px;
+    background: #fff;
+    margin:30px 0px 0px 0px;
+}
+
+.note{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    border:1px dashed #a9abb2;
+    padding:15px;
+    font-size: 15px;
+  
+    color: #3e4152;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.note_desc{
+    font-size: 13px;
+    padding:10px 0px;
+    color: #535665;
+    font-weight: 300;
+
+}
+
+.note_buttons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color:#ec6148;
+    font-size:13px;
+}
+
+.button{
+    cursor: pointer;
+    border-bottom:1.5px solid #ec6148!;
+    margin:0px 10px;
+}
+
+@media(max-width:746px){
+    .filled_cart{
+        grid-template-columns: 1fr;
+        margin:0px;
+        padding:0px;
+        padding-top:10px;
+        grid-column-gap:0px;
+    }
+    .left_cart{
+
+    width:75%;
+
+    }
+    .right_cart{
+        margin: 10px;
+        
+    }
+}
